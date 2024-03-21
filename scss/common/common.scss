@@ -1,0 +1,9 @@
+body{
+  font-family: $default-font;
+}
+
+.container{
+  max-width: $content-width;
+  padding: 0 15px;
+  margin: 0 auto;
+}

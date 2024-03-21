@@ -1,0 +1,163 @@
+
+//Header-slider
+.header_slader {
+    margin-top: 65px;
+    .dot {
+        cursor: pointer;
+        height: 7px;
+        width: 7px;
+        margin: 0 2px;
+        background: #727272;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        &:hover{
+            background: #E264B0;
+        }
+        
+    }
+
+    .active{
+        background: #E264B0;
+    }
+
+    // .fade{
+    //     -webkit-animation-name: fade;
+    //     -webkit-animation-duration:1.5s;
+    //     animation-name: fade;
+    //     animation-direction: 1.5s;
+    // }
+
+    // @-webkit-keyframes fade{
+    //     from{opacity: .5;}
+    //     to{opacity: 1;}
+    // }
+
+    // @keyframes fade{
+    //     from{opacity: .5;}
+    //     to{opacity: 1;}
+    // }
+}
+// /Header-slider
+
+//main
+
+.eyeglass_lenses {
+    
+    
+    .eyeglass_lenses_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .eyeglass_lenses_container_text{
+            h1{
+                margin: 135px 0 32px 0;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 50px;
+                text-align: center;
+            }
+
+            p{
+                width: 693px;   
+                font-size: 16px;
+                line-height: 1.54;
+                padding-left: 21px;
+                text-align: left;
+                border-left: 2px solid #E264B0;
+            }
+        }
+
+        
+    }
+}
+
+//Characteristics_of_the_glasses 
+.Characteristics_of_the_glasses {
+    margin-top: 163px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 305px 248px 305px;
+    /* Будет создано 3 ряда */
+    grid-template-rows: 200px;
+    gap: 100px;
+}
+.glasses_text {
+        h1{
+        font-size: 24px;
+        font-weight: 500;
+     }
+
+    p{
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 163%;
+    }
+
+    img{
+        position: absolute;
+       
+    }
+
+    .comta_1, .comta_3{
+        margin-top: -50px;
+        margin-left: -67px;
+    }
+    .comta_2{
+        margin-top: -55px;
+        margin-left: -77px;
+    }
+    .comta_4{
+        margin-top: -40px;
+        margin-left: -57px;
+    }
+
+    .comta_5{
+        margin-top: -55px;
+        margin-left: -60px;
+    }
+    
+}
+
+//see
+
+.see {
+    .see-container {
+        h1{
+            margin: 180px 0 53px 0;
+            text-align: center;
+        }
+        .see_img {
+                
+            img{
+                background: rgb(0, 0, 0, 0.1);
+            } 
+            gap: 7px;
+            display: flex;
+            justify-content: center;
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+        }
+        .right_img{
+            margin-top: 7px;
+        }
+        .bottom{
+            gap: 8px;
+            display: flex;
+        }
+    }
+}
+
+//footer
+.menu_container{
+    margin-top: 110px;
+    background: linear-gradient(48.22deg, #E264B0 0%, #8F51A5 41.432%, #2A3A98 92.152%);
+    .menu_1 {
+    display: flex;
+    }
+}
+
+
+

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header .header_nav, header ul, header .header_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 22px;
+}
+header ul {
+  gap: 52px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+header .header_btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  width: 177px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 81px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, #E264B0 0%, #8F51A5 41.432%, #2A3A98 92.152%);
+}
+
+.header_slader {
+  margin-top: 65px;
+}
+.header_slader .dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background: #727272;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.header_slader .dot:hover {
+  background: #E264B0;
+}
+.header_slader .active {
+  background: #E264B0;
+}
+
+.eyeglass_lenses .eyeglass_lenses_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eyeglass_lenses .eyeglass_lenses_container .eyeglass_lenses_container_text h1 {
+  margin: 135px 0 32px 0;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+}
+.eyeglass_lenses .eyeglass_lenses_container .eyeglass_lenses_container_text p {
+  width: 693px;
+  font-size: 16px;
+  line-height: 1.54;
+  padding-left: 21px;
+  text-align: left;
+  border-left: 2px solid #E264B0;
+}
+
+.Characteristics_of_the_glasses {
+  margin-top: 163px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 305px 248px 305px;
+  /* Будет создано 3 ряда */
+  grid-template-rows: 200px;
+  gap: 100px;
+}
+
+.glasses_text h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.glasses_text p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 163%;
+}
+.glasses_text img {
+  position: absolute;
+}
+.glasses_text .comta_1, .glasses_text .comta_3 {
+  margin-top: -50px;
+  margin-left: -67px;
+}
+.glasses_text .comta_2 {
+  margin-top: -55px;
+  margin-left: -77px;
+}
+.glasses_text .comta_4 {
+  margin-top: -40px;
+  margin-left: -57px;
+}
+.glasses_text .comta_5 {
+  margin-top: -55px;
+  margin-left: -60px;
+}
+
+.see .see-container h1 {
+  margin: 180px 0 53px 0;
+  text-align: center;
+}
+.see .see-container .see_img {
+  gap: 7px;
+  display: flex;
+  justify-content: center;
+}
+.see .see-container .see_img img {
+  background: rgba(0, 0, 0, 0.1);
+}
+.see .see-container .right {
+  display: flex;
+  flex-direction: column;
+}
+.see .see-container .right_img {
+  margin-top: 7px;
+}
+.see .see-container .bottom {
+  gap: 8px;
+  display: flex;
+}
+
+.menu_container {
+  margin-top: 110px;
+  background: linear-gradient(48.22deg, #E264B0 0%, #8F51A5 41.432%, #2A3A98 92.152%);
+}
+.menu_container .menu_1 {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
