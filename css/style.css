@@ -162,7 +162,26 @@ header .header_btn {
   background: linear-gradient(48.22deg, #E264B0 0%, #8F51A5 41.432%, #2A3A98 92.152%);
 }
 .menu_container .menu_1 {
-  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 245px 198px 167px 258px;
+  align-content: center;
+  gap: 93px;
+}
+.menu_container .menu_1 h1 {
+  padding-top: 27px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+}
+.menu_container .menu_1 a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=style.css.map */
