@@ -31,6 +31,9 @@ body {
 header {
   margin-top: 22px;
 }
+header .active_a {
+  border-bottom: 2px solid #E264B0;
+}
 header ul {
   gap: 52px;
   color: #000;

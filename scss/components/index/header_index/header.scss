@@ -3,6 +3,9 @@ header{
   .header_menu {
     @extend %extends-display
   }
+  .active_a{
+    border-bottom: 2px solid #E264B0 ; 
+  }
 
   ul{
     @extend %extends-display;

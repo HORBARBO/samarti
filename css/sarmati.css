@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header .header_nav, header ul, header .header_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 22px;
+}
+header .active_a {
+  border-bottom: 2px solid #E264B0;
+}
+header ul {
+  gap: 52px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+header .header_btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  width: 177px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 81px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, #E264B0 0%, #8F51A5 41.432%, #2A3A98 92.152%);
+}
+
+.header_slader {
+  margin-top: 65px;
+}
+.header_slader .dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background: #727272;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.header_slader .dot:hover {
+  background: #E264B0;
+}
+.header_slader .active {
+  background: #E264B0;
+}
+
+.back {
+  margin-top: 106px;
+  margin-bottom: 85px;
+}
+.back a {
+  cursor: pointer;
+  color: #E264B0;
+  text-decoration: underline;
+  text-decoration-color: #E264B0;
+}
+
+.lesnes .lesnes_container h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+}
+.lesnes .lesnes_container .lesnes_text {
+  margin-top: 32px;
+  gap: 31px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 488px 478px;
+}
+.lesnes .lesnes_container .lesnes_text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=sarmati.css.map */

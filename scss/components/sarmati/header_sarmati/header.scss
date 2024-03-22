@@ -1,0 +1,39 @@
+header{
+  margin-top: 22px;
+  .header_menu {
+    @extend %extends-display
+  }
+  .active_a{
+    border-bottom: 2px solid #E264B0 ; 
+  }
+
+  ul{
+    @extend %extends-display;
+    gap: 52px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .header_nav{
+    @extend %extends-display
+  }
+    
+  .header_btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    width: 177px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 81px;
+    border-radius: 80px;
+    background: linear-gradient(48.22deg, #E264B0 0%, #8F51A5 41.432%, #2A3A98 92.152%);
+  }
+}
+
+

@@ -1,0 +1,71 @@
+.header_slader {
+    margin-top: 65px;
+    .dot {
+        cursor: pointer;
+        height: 7px;
+        width: 7px;
+        margin: 0 2px;
+        background: #727272;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        &:hover{
+            background: #E264B0;
+        }
+        
+    }
+
+    .active{
+        background: #E264B0;
+    }
+
+    // .fade{
+    //     -webkit-animation-name: fade;
+    //     -webkit-animation-duration:1.5s;
+    //     animation-name: fade;
+    //     animation-direction: 1.5s;
+    // }
+
+    // @-webkit-keyframes fade{
+    //     from{opacity: .5;}
+    //     to{opacity: 1;}
+    // }
+
+    // @keyframes fade{
+    //     from{opacity: .5;}
+    //     to{opacity: 1;}
+    // }
+}
+.back{
+  margin-top: 106px;
+  margin-bottom: 85px;
+  a{
+    cursor: pointer;
+    color:#E264B0;
+    text-decoration: underline;
+    text-decoration-color:#E264B0;
+  }
+}
+
+.lesnes {
+  .lesnes_container {
+    h1{
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 50px;
+      text-align: center;
+    }
+    .lesnes_text {
+      margin-top: 32px;
+      gap: 31px;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 488px 478px;
+      p{
+        font-size: 16px;
+        line-height: 1.5;
+      }
+  }
+}
+
+}
