@@ -11,9 +11,19 @@ li {
   list-style: none;
 }
 
+.none {
+  display: none !important;
+}
+
 header .header_nav, header ul, header .header_menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.premi .lesnes_container_basic .lesnes_card_op .btn, .premi .lesnes_container_basic .lesnes_card_op .star, .premi .lesnes_container .lesnes_card_op .btn, .premi .lesnes_container .lesnes_card_op .star, .premi .lesnes_container .lesnes_card .btn, .premi .lesnes_container .lesnes_card .star {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -69,10 +79,10 @@ header .header_btn {
   transition: background-color 0.6s ease;
 }
 .header_slader .dot:hover {
-  background: #E264B0;
+  background: #e264b0;
 }
 .header_slader .active {
-  background: #E264B0;
+  background: #e264b0;
 }
 
 .back {
@@ -81,9 +91,9 @@ header .header_btn {
 }
 .back a {
   cursor: pointer;
-  color: #E264B0;
+  color: #e264b0;
   text-decoration: underline;
-  text-decoration-color: #E264B0;
+  text-decoration-color: #e264b0;
 }
 
 .lesnes .lesnes_container h1 {
@@ -102,6 +112,197 @@ header .header_btn {
 .lesnes .lesnes_container .lesnes_text p {
   font-size: 16px;
   line-height: 1.5;
+}
+
+.premi .lesnes_type {
+  margin-top: 180px;
+  text-align: center;
+}
+.premi .lesnes_type .Premium {
+  margin-top: 74px;
+  margin-bottom: 45px;
+}
+.premi .lesnes_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.premi .lesnes_container .lesnes_card {
+  position: relative;
+  background-color: #1E1E1E;
+  max-width: 592px;
+  height: 405px;
+}
+.premi .lesnes_container .lesnes_card .star {
+  gap: 7px;
+  position: absolute;
+  top: 54%;
+  left: 40%;
+  width: 121px;
+  height: 29px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, rgb(226, 100, 176) 0%, rgb(143, 81, 165) 41.418%, rgb(42, 58, 152) 92.122%), rgb(196, 196, 196);
+}
+.premi .lesnes_container .lesnes_card p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+.premi .lesnes_container .lesnes_card .card-title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  margin: 17px 0;
+}
+.premi .lesnes_container .lesnes_card .btn {
+  position: absolute;
+  top: 94%;
+  left: 46%;
+  width: 41px;
+  height: 41px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, rgb(226, 100, 176) 0%, rgb(143, 81, 165) 39.537%, rgb(42, 58, 152) 87.939%), rgb(196, 196, 196);
+}
+.premi .lesnes_container .lesnes_card .btn .arrow {
+  color: #fff;
+}
+.premi .lesnes_container .lesnes_card_op {
+  position: relative;
+  max-width: 387px;
+  height: 415px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(239, 239, 239);
+}
+.premi .lesnes_container .lesnes_card_op .star {
+  gap: 7px;
+  position: absolute;
+  top: 52%;
+  left: 33%;
+  width: 121px;
+  height: 29px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, rgb(226, 100, 176) 0%, rgb(143, 81, 165) 41.418%, rgb(42, 58, 152) 92.122%), rgb(196, 196, 196);
+}
+.premi .lesnes_container .lesnes_card_op .card-title-two {
+  margin-top: 31px;
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+}
+.premi .lesnes_container .lesnes_card_op p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration-line: underline;
+}
+.premi .lesnes_container .lesnes_card_op .btn {
+  position: absolute;
+  top: 94%;
+  left: 46%;
+  width: 41px;
+  height: 41px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, rgb(226, 100, 176) 0%, rgb(143, 81, 165) 39.537%, rgb(42, 58, 152) 87.939%), rgb(196, 196, 196);
+}
+.premi .lesnes_container .lesnes_card_op .btn .arrow {
+  color: #fff;
+}
+.premi .op {
+  margin-bottom: 26px;
+  margin-top: 70px;
+  text-align: center;
+}
+.premi .basic {
+  margin-top: 90px;
+  margin-bottom: 31px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 25%;
+  text-align: center;
+}
+.premi .lesnes_container_basic {
+  display: flex;
+  justify-content: center;
+}
+.premi .lesnes_container_basic .lesnes_card_op {
+  position: relative;
+  max-width: 435px;
+  height: 422px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(239, 239, 239);
+}
+.premi .lesnes_container_basic .lesnes_card_op .star {
+  gap: 7px;
+  position: absolute;
+  top: 54%;
+  left: 35%;
+  width: 121px;
+  height: 29px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, rgb(226, 100, 176) 0%, rgb(143, 81, 165) 41.418%, rgb(42, 58, 152) 92.122%), rgb(196, 196, 196);
+}
+.premi .lesnes_container_basic .lesnes_card_op .card-title-two {
+  margin-top: 31px;
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+}
+.premi .lesnes_container_basic .lesnes_card_op p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration-line: underline;
+}
+.premi .lesnes_container_basic .lesnes_card_op .btn {
+  position: absolute;
+  top: 94%;
+  left: 30%;
+  width: 177px;
+  height: 41px;
+  border-radius: 80px;
+  background: linear-gradient(48.22deg, rgb(226, 100, 176) 0%, rgb(143, 81, 165) 39.537%, rgb(42, 58, 152) 87.939%), rgb(196, 196, 196);
+}
+.premi .lesnes_container_basic .lesnes_card_op .arrow {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.menu_container {
+  margin-top: 110px;
+  background: linear-gradient(48.22deg, #E264B0 0%, #8F51A5 41.432%, #2A3A98 92.152%);
+}
+.menu_container .menu_1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 245px 198px 167px 258px;
+  align-content: center;
+  gap: 93px;
+}
+.menu_container .menu_1 h1 {
+  padding-top: 27px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+}
+.menu_container .menu_1 a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=sarmati.css.map */

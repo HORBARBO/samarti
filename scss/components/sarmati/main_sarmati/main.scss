@@ -1,71 +1,280 @@
 .header_slader {
-    margin-top: 65px;
-    .dot {
-        cursor: pointer;
-        height: 7px;
-        width: 7px;
-        margin: 0 2px;
-        background: #727272;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-        &:hover{
-            background: #E264B0;
-        }
-        
-    }
+	margin-top: 65px;
+	.dot {
+		cursor: pointer;
+		height: 7px;
+		width: 7px;
+		margin: 0 2px;
+		background: #727272;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+		&:hover {
+			background: #e264b0;
+		}
+	}
 
-    .active{
-        background: #E264B0;
-    }
+	.active {
+		background: #e264b0;
+	}
 
-    // .fade{
-    //     -webkit-animation-name: fade;
-    //     -webkit-animation-duration:1.5s;
-    //     animation-name: fade;
-    //     animation-direction: 1.5s;
-    // }
+	// .fade{
+	//     -webkit-animation-name: fade;
+	//     -webkit-animation-duration:1.5s;
+	//     animation-name: fade;
+	//     animation-direction: 1.5s;
+	// }
 
-    // @-webkit-keyframes fade{
-    //     from{opacity: .5;}
-    //     to{opacity: 1;}
-    // }
+	// @-webkit-keyframes fade{
+	//     from{opacity: .5;}
+	//     to{opacity: 1;}
+	// }
 
-    // @keyframes fade{
-    //     from{opacity: .5;}
-    //     to{opacity: 1;}
-    // }
+	// @keyframes fade{
+	//     from{opacity: .5;}
+	//     to{opacity: 1;}
+	// }
 }
-.back{
-  margin-top: 106px;
-  margin-bottom: 85px;
-  a{
-    cursor: pointer;
-    color:#E264B0;
-    text-decoration: underline;
-    text-decoration-color:#E264B0;
-  }
+.back {
+	margin-top: 106px;
+	margin-bottom: 85px;
+	a {
+		cursor: pointer;
+		color: #e264b0;
+		text-decoration: underline;
+		text-decoration-color: #e264b0;
+	}
 }
 
 .lesnes {
-  .lesnes_container {
-    h1{
-      font-size: 36px;
-      font-weight: 500;
-      line-height: 50px;
-      text-align: center;
-    }
-    .lesnes_text {
-      margin-top: 32px;
-      gap: 31px;
-      display: grid;
-      justify-content: center;
-      grid-template-columns: 488px 478px;
-      p{
-        font-size: 16px;
-        line-height: 1.5;
-      }
-  }
+	.lesnes_container {
+		h1 {
+			font-size: 36px;
+			font-weight: 500;
+			line-height: 50px;
+			text-align: center;
+		}
+		.lesnes_text {
+			margin-top: 32px;
+			gap: 31px;
+			display: grid;
+			justify-content: center;
+			grid-template-columns: 488px 478px;
+			p {
+				font-size: 16px;
+				line-height: 1.5;
+			}
+		}
+	}
 }
 
+.premi {
+	.lesnes_type {
+		margin-top: 180px;
+		text-align: center;
+		.Premium {
+			margin-top: 74px;
+			margin-bottom: 45px;
+		}
+	}
+	.lesnes_container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		gap: 10px;
+		.lesnes_card {
+			position: relative;
+			background-color: #1E1E1E;
+			max-width: 592px;
+			height: 405px;
+			.star {
+				@extend %extends-display_ds;
+				gap: 7px;
+				position: absolute;
+				top: 54%;
+				left: 40%;
+				width: 121px;
+				height: 29px;
+				border-radius: 80px;
+				background: linear-gradient(
+						48.22deg,
+						rgb(226, 100, 176) 0%,
+						rgb(143, 81, 165) 41.418%,
+						rgb(42, 58, 152) 92.122%
+					),
+					rgb(196, 196, 196);
+			}
+			p {
+				color: rgb(255, 255, 255);
+				text-align: center;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.5;
+				text-decoration: underline;
+			}
+			.card-title {
+				color: rgb(255, 255, 255);
+				text-align: center;
+				font-size: 24px;
+				font-weight: 600;
+				line-height: 33px;
+				margin: 17px 0;
+			}
+			.btn {
+				@extend %extends-display_ds;
+				position: absolute;
+				top: 94%;
+				left: 46%;
+				width: 41px;
+				height: 41px;
+				border-radius: 80px;
+				background: linear-gradient(
+						48.22deg,
+						rgb(226, 100, 176) 0%,
+						rgb(143, 81, 165) 39.537%,
+						rgb(42, 58, 152) 87.939%
+					),
+					rgb(196, 196, 196);
+				.arrow {
+					color: #fff;
+				}
+			}
+		}
+		  .lesnes_card_op{
+        position: relative;
+        max-width: 387px;
+        height: 415px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid rgb(239, 239, 239);
+          .star {
+          @extend %extends-display_ds;
+          gap: 7px;
+          position: absolute;
+          top: 52%;
+          left: 33%;
+          width: 121px;
+          height: 29px;
+          border-radius: 80px;
+          background: linear-gradient(
+              48.22deg,
+              rgb(226, 100, 176) 0%,
+              rgb(143, 81, 165) 41.418%,
+              rgb(42, 58, 152) 92.122%
+            ),
+            rgb(196, 196, 196);
+        }
+        .card-title-two{
+          margin-top: 31px;
+          margin-bottom: 17px;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 33px;
+        }
+        p{
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.5;
+          
+          text-decoration-line: underline;
+        }
+        .btn {
+				@extend %extends-display_ds;
+				position: absolute;
+				top: 94%;
+				left: 46%;
+				width: 41px;
+				height: 41px;
+				border-radius: 80px;
+				background: linear-gradient(
+						48.22deg,
+						rgb(226, 100, 176) 0%,
+						rgb(143, 81, 165) 39.537%,
+						rgb(42, 58, 152) 87.939%
+					),
+					rgb(196, 196, 196);
+				.arrow {
+					color: #fff;
+				}
+			}
+    }
+	}
+  .op{
+      margin-bottom: 26px;
+      margin-top: 70px;
+      text-align: center;
+
+		}
+  .basic{
+    margin-top: 90px;
+    margin-bottom: 31px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 25%;
+    text-align: center;
+  }
+  .lesnes_container_basic{
+    display: flex;
+    justify-content: center;
+    .lesnes_card_op{
+      position: relative;
+        max-width: 435px;
+        height: 422px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid rgb(239, 239, 239);
+        .star {
+          @extend %extends-display_ds;
+          gap: 7px;
+          position: absolute;
+          top: 54%;
+          left: 35%;
+          width: 121px;
+          height: 29px;
+          border-radius: 80px;
+          background: linear-gradient(
+              48.22deg,
+              rgb(226, 100, 176) 0%,
+              rgb(143, 81, 165) 41.418%,
+              rgb(42, 58, 152) 92.122%
+            ),
+            rgb(196, 196, 196);
+        }
+        .card-title-two{
+          margin-top: 31px;
+          margin-bottom: 17px;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 33px;
+        }
+        p{
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.5;
+          text-decoration-line: underline;
+        }
+        .btn {
+				@extend %extends-display_ds;
+				position: absolute;
+				top: 94%;
+				left: 30%;
+				width: 177px;
+        height: 41px;
+				border-radius: 80px;
+				background: linear-gradient(
+						48.22deg,
+						rgb(226, 100, 176) 0%,
+						rgb(143, 81, 165) 39.537%,
+						rgb(42, 58, 152) 87.939%
+					),
+					rgb(196, 196, 196);
+        }
+				.arrow {
+					color: #fff;
+          text-decoration: underline;
+				}
+    }
+    
+  }
 }

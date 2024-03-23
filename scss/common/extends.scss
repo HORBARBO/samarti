@@ -3,3 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+%extends-display_ds{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
